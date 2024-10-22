@@ -7,9 +7,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/CloudTechDevOps/Kubernetes.git
+    repoURL: https://github.com/MechTurnedIT/kubernetes.git
     targetRevision: HEAD
-    path: day-14-argocd
+    path: day-12-argocd
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
