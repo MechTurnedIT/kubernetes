@@ -16,7 +16,7 @@ spec:
     spec:
       terminationGracePeriodSeconds: 30
       containers:
-      - name: httpd
+      - name: swiggy-app
         image: httpd
         imagePullPolicy: "Always"
         ports:
